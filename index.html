@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Frontend Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>Contacts</h2>
+      </div>
+      <ul class="contact-list">
+        <li class="contact">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="avatar">
+          <div class="contact-info">
+            <h4>John Doe</h4>
+            <p>Hey there!</p>
+          </div>
+        </li>
+        <li class="contact">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="avatar">
+          <div class="contact-info">
+            <h4>Jane Smith</h4>
+            <p>Let's catch up soon!</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="chat-area">
+      <div class="chat-header">
+        <h3>Chat with John Doe</h3>
+      </div>
+      <div class="messages">
+        <div class="message received">
+          <p>Hello! How are you?</p>
+          <span class="timestamp">10:00 AM</span>
+        </div>
+        <div class="message sent">
+          <p>I'm good, thanks! You?</p>
+          <span class="timestamp">10:02 AM</span>
+        </div>
+      </div>
+      <div class="message-input">
+        <input type="text" id="message" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
